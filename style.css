@@ -1,0 +1,70 @@
+/*
+===============
+   Variables
+===============
+ */
+:root {
+ --clr-primary: blue;
+}
+
+/*
+=============
+    Fonts
+=============
+ */
+
+@font-face {
+  font-family: Vazir-farsi-digits;
+  src: url("./fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.eot");
+  src: url("./fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */
+      url("./fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("./fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.ttf")
+      format("truetype");
+}
+
+/*
+=====================
+    Global Styles
+=====================
+*/
+
+body {
+  font-family: Vazir-farsi-digits, sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+a,
+a:hover,
+a:visited {
+  color: initial;
+}
+
+/*
+====================
+    Global Class
+====================
+*/
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.select-none {
+  user-select: none;
+}
+
+/*
+===================
+    Main Styles
+===================
+*/
